@@ -1,0 +1,16 @@
+name: python11-admetlab2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas>=1.5
+  - rdkit                     
+  - tqdm
+  - requests
+  - urllib3
+  - certifi
+  - charset-normalizer
+  - idna
+  - pip:
+      - ersilia>=0.9          
